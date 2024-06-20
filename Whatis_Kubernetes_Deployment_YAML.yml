@@ -1,3 +1,4 @@
+https://codefresh.io/learn/kubernetes-deployment/kubernetes-deployment-examples-create-update-rollback-and-more/
 What is Kubernetes Deployment YAML?
 
 YAML (which stands for YAML Ain’t Markup Language) is a language used to provide configuration for software, and is the main type of input for Kubernetes configurations. It is human-readable and can be authored in any text editor. 
@@ -178,7 +179,7 @@ Important points in this configuration:
     template.spec.volumes.persistVolumeClaim
     —references a PVC. For this to work, you must have some PVs in your cluster and create a PVC object that matches those PVs. You can then reference the existing PVC object here and the pod will attempt to bind to a matching PV.
 
-Learn more about PVs and PVCs in the documentation.
+Learn more about PVs and PVCs in the documentation.https://kubernetes.io/docs/tasks/configure-pod-container/configure-persistent-volume-storage/
 With Affinity Settings
 
 The following YAML configuration creates a Deployment object with affinity criteria that can encourage a pod to schedule on certain types of nodes.
@@ -365,19 +366,3 @@ The important fields of this configuration are:
     volumeClaimTemplates
     —provides persistent storage using the my-storage-class
      storage class. In a real environment, your cluster will have one or more storage classes defined by the cluster administrator, which provide different types of persistent storage.
-
-Kubernetes Deployment with Codefresh
-
-The Codefresh Software Delivery Platform, powered by Argo, lets you answer many important questions within your organization, whether you’re a developer or a product manager. For example:
-
-    What features are deployed right now in any of your environments?
-    What features are waiting in Staging?
-    What features were deployed last Thursday?
-    Where is feature #53.6 in our environment chain?
-
-What’s great is that you can answer all of these questions by viewing one single dashboard. Our applications dashboard shows:
-
-    Services affected by each deployment
-    The current state of Kubernetes components
-    Deployment history and log of who deployed what and when and the pull request or Jira ticket associated with each deployment
-
