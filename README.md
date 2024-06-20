@@ -28,3 +28,4 @@ The following are the best bundles to **save 45% (up to $788)** with code **JUNE
 
 If you are learning Kubernetes, check out the [kubernetes Learning Roadmap](https://github.com/techiescamp/kubernetes-learning-path)
 
+https://devopscube.com/setup-kubernetes-cluster-kubeadm/
